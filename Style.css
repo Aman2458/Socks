@@ -1,0 +1,972 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    position: relative;
+
+}
+
+/* -------page1 Code-------- */
+
+#part01 {
+    height: 100vh;
+    width: 100%;
+    background-color: #ffe8e4;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+
+#nav #alin img {
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+#text-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    font-family: gilroy;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-style: italic;
+    top: 100px;
+}
+
+#text-content h2 {
+    position: absolute;
+    font-size: 120px;
+    white-space: nowrap;
+    /* background-color: red; */
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 2px;
+    color: transparent;
+    /* left: 20%; */
+    font-style: italic;
+    left: 50%;
+    bottom: 60%;
+    transform: translate(-50%, 15%);
+
+}
+
+
+
+
+#nav #center,
+h3 {
+    display: flex;
+    padding: 5px 20px;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#center>h3 {
+    border: 1px solid #000;
+    font-size: 20px;
+    border-radius: 50px;
+    font-family: glitten;
+    font-weight: 300;
+    padding-top: -50px;
+
+
+}
+
+h3:hover {
+    background-color: #000;
+    color: #ffe8e4;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+
+
+#nav #search {
+    margin: 20px 20px;
+
+
+}
+
+#search i {
+    border: 1px solid #000;
+    padding: 7px;
+    border-radius: 50%;
+
+}
+
+i:hover {
+    background-color: #000;
+    color: #ffe8e4;
+    cursor: pointer;
+}
+
+
+#text-content {
+    position: absolute;
+    text-transform: uppercase;
+    font-family: gilroy;
+    left: 18%;
+
+}
+
+#text-content>h1 {
+    font-size: 100px;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 15px;
+
+}
+
+#dabba {
+    padding: 10px 10px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60%;
+    width: 60%;
+    border: 2px solid #000;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#dabba img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#part02 {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffe8e4;
+}
+
+
+#dabba2 {
+    position: relative;
+    top: 15%;
+    left: 20%;
+    height: 65%;
+    width: 25%;
+    border: 2px solid #000;
+}
+
+#dabba2>img {
+    height: 100%;
+    margin: 30px 30px;
+    object-fit: cover;
+    width: 110%;
+    border: 1px solid #000;
+}
+
+#dabba2>button {
+    position: relative;
+    top: -30%;
+    left: 95%;
+    padding: 20px 40px;
+    border-radius: 50%;
+    font-family: Gilroy;
+    letter-spacing: 1px;
+    background-color: #ccf17f;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#text,
+h2 {
+    position: relative;
+    top: -32%;
+    left: 60%;
+    font-size: 20px;
+    font-family: gilroy;
+}
+
+#text-content2 h1 {
+    position: absolute;
+    top: -10%;
+    left: 150%;
+    font-size: 90px;
+    text-transform: capitalize;
+    font-style: italic;
+    font-family: gilroy;
+    line-height: 70px;
+
+
+
+
+}
+
+#dabba3 {
+    position: relative;
+    height: 32%;
+    width: 20%;
+    left: 65%;
+    top: -25%;
+    border: 2px solid #000;
+}
+
+#dabba3 img {
+    height: 100%;
+    width: 110%;
+    margin: 20px -50px;
+    object-fit: cover;
+    border: 1px solid #000;
+
+}
+
+#text-content3,
+h3 {
+    position: relative;
+    left: 10%;
+    font-style: 20px;
+    font-size: 30px;
+    font-family: glitten;
+    font-style: italic;
+}
+
+#part03 {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffe8e4;
+}
+
+
+
+#box1 {
+    position: relative;
+    top: 30%;
+    left: -10%;
+    height: 38%;
+    width: 18%;
+    border: 1px solid #000;
+    background-image: url(https://coresites-cdn-adm.imgix.net/whitelines_new/wp-content/uploads/2020/09/White-Lines-Buyers-Guide-2021_S03-Accessories_0072.jpg?fit=crop&w=1350&h=1012);
+    background-position: center;
+    background-size: cover;
+}
+
+#box2 {
+    position: relative;
+    top: 30%;
+    left: -10%;
+    height: 38%;
+    width: 18%;
+    border: 1px solid #000;
+    background-image: url(https://minortrendwatching.com/wp-content/uploads/2020/04/55.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#box3 {
+    position: relative;
+    top: 30%;
+    left: -10%;
+    height: 38%;
+    width: 18%;
+    border: 1px solid #000;
+    background-image: url(https://manymornings.com/wp-content/uploads/2022/07/EN.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#box1>button {
+    position: relative;
+    left: 18%;
+    padding: 15px 60px;
+    top: 90%;
+    background-color: #ccf17f;
+
+}
+
+#box2>button {
+    position: relative;
+    left: 18%;
+    padding: 15px 60px;
+    top: 90%;
+    background-color: #ccf17f;
+
+}
+
+#box3>button {
+    position: relative;
+    left: 18%;
+    padding: 15px 60px;
+    top: 90%;
+    background-color: #ccf17f;
+
+
+
+}
+
+#box1:hover button {
+    transform: scale(1.1);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
+}
+
+
+#box2:hover button {
+    transform: scale(1.1);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
+}
+
+#box3:hover button {
+    transform: scale(1.1);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
+}
+
+#text2>h3 {
+    position: relative;
+    position: absolute;
+    font-family: Glitten;
+    font-weight: 700;
+    left: 40%;
+    top: 280%;
+    border-radius: 50px;
+    font-size: 60px;
+}
+
+
+#part04 {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffe8e4;
+}
+
+
+.card {
+    position: relative;
+    top: 12%;
+    height: 25%;
+    width: 12%;
+    border: 1px solid #000;
+    background-image: url(https://company.slamjam.com/wp-content/uploads/2018/04/1-17-800x1200.jpg);
+    background: none;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.card:hover {
+    background-image: url(https://company.slamjam.com/wp-content/uploads/2018/04/1-17-800x1200.jpg);
+
+}
+
+
+
+/* #text-contant4 {
+    position: absolute;
+    font-size: 40px;
+    left: 50%;
+    top: 320%;
+    font-style: italic;
+    font-family: Voyage;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 600;
+    background-color: #ccf17f;
+
+} */
+.card {
+    height: 90px;
+    width: 100%;
+    /* background-color: red; */
+    border-top: 2px solid #000;
+}
+
+.card img {
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    left: 30%;
+    object-fit: cover;
+    transform: rotate(10deg);
+    opacity: 0;
+
+}
+
+.card:hover img {
+    opacity: 1;
+
+}
+
+.card button {
+    position: relative;
+    bottom: 25%;
+    padding: 5px 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    transform: rotate(10deg);
+    font-family: glitten;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.card:hover button {
+    background-color: green;
+
+}
+
+
+.card h4 {
+    position: relative;
+    bottom: 15%;
+    left: 20px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: gilroy;
+    line-height: 8px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.card h1 {
+    position: relative;
+    /* position: absolute; */
+    left: 65%;
+    top: 15%;
+    font-family: Ink free;
+    text-transform: capitalize;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.card h5 {
+    position: relative;
+    /* position: absolute; */
+    left: 65%;
+    top: 15%;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-family: glitten;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+#part05 {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffe8e4;
+}
+
+#frist h1 {
+    margin-left: 250px;
+    font-size: 90px;
+    font-family: Glitten;
+
+
+}
+
+#second h1 {
+    font-size: 80px;
+    margin-left: 175px;
+    margin-top: -20px;
+    font-style: italic;
+    font-size: 100px;
+    font-family: glitten;
+}
+
+#part05 #text-content5 h5 {
+    width: 30%;
+    font-family: gilroy;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    /* background-color: yellow; */
+    letter-spacing: 1px;
+}
+
+
+
+#dabba4 {
+    position: relative;
+    left: 67%;
+    bottom: 80%;
+    height: 90%;
+    width: 30%;
+    /* background-color: red; */
+    border: 2px solid #000;
+
+}
+
+#dabba4 img {
+    position: relative;
+    height: 115%;
+    width: 120%;
+    right: 15%;
+    margin: 25px -50px;
+    object-fit: cover;
+    border: 1px solid #000;
+
+}
+
+#text-content5 h5 {
+    font-size: 15px;
+    margin-left: 150px;
+    align-items: center;
+    font-weight: 400;
+    font-family: Gilroy;
+    line-height: 1;
+
+}
+
+#dabba5 {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    height: 40%;
+    width: 20%;
+    /* background-color:darkred; */
+    border: 2px solid black;
+}
+
+#dabba5 img {
+    margin: 15px 15px;
+    height: 105%;
+    width: 110%;
+    object-fit: cover;
+    border: 1px solid #000;
+}
+
+#part05 button {
+    position: relative;
+    padding: 20px 50px;
+    border-radius: 50%;
+    left: 28%;
+    background-color: #ccf17f;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: gilroy;
+    font-weight: 600;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#part06 {
+    overflow: hidden;
+    height: 200vh;
+    width: 100%;
+    background-color: #ffe8e4;
+}
+
+
+.card1 {
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    white-space: nowrap;
+}
+
+.card1 i {
+    font-size: 13px;
+    color: rgba(179, 44, 44, 0.716);
+    padding: 10px 10px;
+
+}
+
+.card1 h4 {
+    display: inline-block;
+    position: relative;
+    font-family: Gilroy;
+    top: 30%;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    /* background-color: darkred; */
+    margin-left: -5px;
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+#text-content7 {
+    position: relative;
+    left: 10%;
+    top: 2%;
+    font-family: Voyage;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+
+#text-content8 {
+    position: relative;
+    width: 20%;
+    bottom: 10%;
+    left: 120%;
+    top: -80%;
+
+
+}
+
+#text-content8 h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 33px;
+    font-family: Glitten;
+}
+
+#text-content8 h5 {
+    font-family: gilroy;
+    width: 150%;
+    text-align: center;
+    margin: 20px 40px;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+#box5 {
+    position: relative;
+    top: 5%;
+    height: 30%;
+    width: 50%;
+    left: 10%;
+    border: 2px solid #000;
+    object-fit: cover;
+}
+
+#box5 img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 90%;
+    width: 95%;
+    /* object-fit: cover; */
+}
+
+#text-content9 {
+    position: relative;
+    top: 9%;
+    left: 45%;
+    font-family: Gilroy;
+    font-style: italic;
+    cursor: pointer;
+}
+
+
+
+
+.card2 {
+    position: relative;
+    top: 10%;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    white-space: nowrap;
+    gap: 20px;
+
+}
+
+.card2 i {
+    font-size: 13px;
+    color: rgba(179, 44, 44, 0.716);
+    padding: 10px 10px;
+
+}
+
+.card2 h4 {
+    display: flex;
+    font-family: Gilroy;
+    display: inline-block;
+    position: relative;
+    top: 30%;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    /* background-color: darkred; */
+    margin-left: -5px;
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+
+
+#box6 {
+    position: relative;
+    top: 15%;
+    left: 10%;
+    height: 15%;
+    width: 20%;
+    /* background-color: black; */
+    border: 1px solid #000;
+    background-image: url(https://media.happysocks.com/images/PRS01-0200_W_small.jpg?width=640&format=pjpg&quality=60&auto=webp&bg-color=fafafa);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#box7 {
+    position: relative;
+    top: -15%;
+    left: 35%;
+    height: 21%;
+    width: 30%;
+    border: 1px solid #000;
+    background-image: url(https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHNvY2tzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#box8 {
+    position: relative;
+    left: 71%;
+    height: 15%;
+    width: 20%;
+    border: 1px solid #000;
+    background-image: url(https://www.srf.ch/static/cms/images/480ws/dccbe39367df51f5b533f323b901311739f431c6.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#page07 {
+    display: inline;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-color: #af24b7;
+}
+
+#bottomnav {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+#bottomnav #box9 {
+    position: relative;
+    /* right: 10%; */
+    top: 5%;
+    height: 40%;
+    width: 50%;
+    border: 2px solid #000;
+    border-right: none;
+    border-left: none;
+}
+
+#box10 {
+
+    width: 100%;
+    margin-top: 40px;
+    justify-content: space-around;
+    font-family: Gilroy;
+    display: flex;
+    text-transform: uppercase;
+
+
+
+}
+
+#box10 #left1 h1 {
+    cursor: pointer;
+    font-family: Beacon;
+    font-style: italic;
+}
+
+#box10 #left1 h5 {
+    position: relative;
+    top: 15px;
+    margin-top: 17px;
+    font-weight: 100;
+    text-transform: capitalize;
+    /* margin-left : 20px; */
+    cursor: pointer;
+    width: fit-content;
+    font-size: 15px;
+
+
+}
+
+#box10 #left2 h1 {
+    cursor: pointer;
+    font-family: Beacon;
+    font-style: italic;
+}
+
+#box10 #left2 h5 {
+    position: relative;
+    top: 15px;
+    margin-top: 17px;
+    font-weight: 100;
+    text-transform: capitalize;
+    font-size: 15px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+#left1 h5:hover {
+    border-bottom: 1px solid #000;
+}
+
+#left2 h5:hover {
+    border-bottom: 1px solid #000;
+}
+
+#box11 {
+
+    padding: 30px 40px;
+    position: relative;
+    top: 5%;
+    height: 40%;
+    width: 50%;
+    /* background-color: red; */
+    border: 2px solid #000;
+    gap: 30px;
+
+}
+
+#box11 #top {
+    display: flex;
+    gap: 20px;
+}
+
+#box11 h5 {
+    padding: 5px 10px;
+    height: fit-content;
+    border: 1px solid #000;
+    border-radius: 50px;
+    text-transform: capitalize;
+    font-family: Gilroy;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+#box11 h5 i {
+    border-radius: 50px;
+}
+
+#box11 h5:hover {
+    background-color: #000;
+    color: #ffe8e4;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+
+#right h1 {
+    margin-top: 100px;
+    font-family: Beacon;
+    font-style: italic;
+}
+
+#email {
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    width: 70%;
+    border-bottom: 2px solid #000;
+}
+
+#email i {
+    font-size: 30px;
+}
+
+#email p {
+    font-size: 12px;
+    font-family: Gilroy;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+#logo img {
+    position: relative;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+}
+
+#lastnav {
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+    border-top: 2px solid #000;
+    font-family: Gilroy;
+    font-weight: 400;
+}
+
+#alin2 {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#alin2 h6 {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+
+@media(max-width: 500px) {
+    #main {
+        flex-direction: column;
+    }
+
+    #main #left {
+        width: 100%;
+
+    }
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
